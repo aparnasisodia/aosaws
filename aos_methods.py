@@ -21,7 +21,7 @@ options.add_argument("enable-automation")
 options.add_argument("--disable-infobars")
 options.add_argument("--disable-dev-shm-usage")
 
-#driver = webdriver.Chrome(options=options)
+driver = webdriver.Chrome(options=options)
 
 print('----------------------------******--------------------------------------------------')
 print('---------------------------*****---------------------------------------------------------')
@@ -29,7 +29,7 @@ print('---------------------------*****-----------------------------------------
 
 # ---------------------------------------------------------------------------------
 
-driver = webdriver.Chrome('/Users/owner/Desktop/pythonProject/chromedriver')
+#driver = webdriver.Chrome('/Users/owner/Desktop/pythonProject/chromedriver')
 # driver = webdriver.Chrome(executable_path='/Users/owner/Desktop/pythonProject/venv/chromedriver')
 
 # s = Service(executable_path = '/Users/owner/Desktop/pythonProject/venv/chromedriver.exe')
