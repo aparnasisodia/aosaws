@@ -11,6 +11,14 @@ from selenium.webdriver.support.ui import Select # <-- add this import for drop 
 from selenium.webdriver.common.keys import Keys
 # from faker import Fakerimport sys
 
+
+print('----------------------------******--------------------------------------------------')
+print('---------------------------*****---------------------------------------------------------')
+
+from selenium.webdriver.chrome.options import Options
+
+
+
 options = Options()
 options.add_argument("--headless")
 options.add_argument("window-size=1400,1500")
